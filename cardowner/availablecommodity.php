@@ -63,14 +63,6 @@
 		$data=mysqli_fetch_assoc($run);
 ?>
 <table align="center">
-<form method="POST" action="availablecommodity.php">
-<tr style="color:#ffffff">
-		<th>Enter Card Number:</th>
-		<td><input type="number" name="cardno" placeholder="Card Number" required/>
-		</td>
-		<td colspan="5"><input type="submit" name="submit" value="Submit"/></td>
-	</tr>
-</form>
 <table align="center" bgcolor="#000" width="960px" height="auto" cellspacing="15px" >		
 			<tr style="color:#fff">
 				<th>NO</th>
